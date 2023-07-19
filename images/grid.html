@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+    <link rel="stylesheet" href="./grid.css">
+</head>
+<body>
+    <div style="
+                display: grid;
+                grid-template-columns: 100px 100px 200px 300px">
+        <div style="background-color: lightblue;"> div 1 <p>Hello</p></div>
+        <div style="background-color: lightpink;"> div 2</div>
+        <div style="background-color: red;"> div 3</div>
+        <div style="background-color: blue;"> div 4</div>
+        <div style="background-color: lightblue;"> div 5</div>
+        <div style="background-color: lightpink;"> div 6</div>
+        <div style="background-color: red;"> div 7</div>
+        <div style="background-color: blue;"> div 8</div>
+    </div>
+
+    <div style=" margin-top: 30px;
+        display: grid;
+        grid-template-columns: 100px 1fr">
+    <div style="background-color: lightblue;"> div 1</div>
+    <div style="background-color: lightpink;"> div 2</div>
+    </div>
+   
+
+
+    <div style=" margin-top: 30px;
+        display: grid;
+        grid-template-columns: 100px 1fr 1fr">
+    <div style="background-color: lightblue;"> div 1</div>
+    <div style="background-color: lightpink;"> 1 fr</div>
+    <div style="background-color: red"> 1 fr</div>
+
+    </div>
+
+    <div style=" margin-top: 30px;
+        row-gap: 40px;
+        column-gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr">
+    <div style="background-color: green; height: 200px "> 1 fr</div>
+    <div style="background-color: whitesmoke; height: 200px "> 1 fr</div>
+    <div style="background-color: red; height: 200px "> 1 fr</div>
+    <div style="background-color: whitesmoke; height: 200px "> 1 fr</div>
+    <div style="background-color: red; height: 200px "> 1 fr</div>
+    <div style="background-color: green; height: 200px "> 1 fr</div>
+
+    </div>
+    
+</body>
+</html>
